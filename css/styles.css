@@ -42,8 +42,6 @@ p {
   margin-right: auto;
   width: 696px;
   height: 120px;
-  margin-top: 200px;
-  margin-bottom: 280px;
   /* outline: 2px solid turquoise; */
 }
 
@@ -197,6 +195,8 @@ img {
   height: 600px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 280px;
   text-align: center;
   background-color: var(--dark-bg);
 }
@@ -271,6 +271,8 @@ img {
 
 .gallery-item {
   flex-basis: calc((100% - 3 * 30px) / 3);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .team-bg {
